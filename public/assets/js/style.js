@@ -8,3 +8,6 @@ function printMessage(id, message) {
 	var obj = document.getElementById(id);
 	obj.innerHTML = message;
 }
+
+exports.makeBorderStyle = makeBorderStyle;
+exports.printMessage = printMessage;

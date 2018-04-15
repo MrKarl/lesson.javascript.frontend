@@ -6,3 +6,5 @@ function askMessage(message, okCallback, cancelCallback) {
 		cancelCallback();
 	}
 }
+
+exports.askMessage = askMessage;
